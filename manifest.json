@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Geforce Client Spoofer",
+    "description": "Geforce Client Spoofer",
+    "version": "1.0",
+
+    "icons": {
+        "128": "images/icon.png"
+    },
+
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules/nvidia_api.json"
+        }]
+    },
+
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+
+    "host_permissions": [
+        "*://*.geforcenow.com/*",
+        "*://*.nvidia.com/*",
+        "*://*.geforce.com/*",
+        "*://*.nvidiagrid.net/*"
+    ]
+  }

@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "redirect",
+            "redirect": {
+                "transform": {
+                    "queryTransform": {
+                        "addOrReplaceParams": [
+                            { "key": "deviceOS", "value": "Windows", "replaceOnly": true },
+                            { "key": "deviceOSVersion", "value": "xddd", "replaceOnly": true }
+                        ],
+                        "removeParams": [
+                            "clientParams"
+                        ]
+                    }
+                }
+            }
+        },
+        "condition": {
+            "urlFilter": "*nvidia.com/*"
+        }
+    }
+]

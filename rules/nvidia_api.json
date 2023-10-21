@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "modifyHeaders",
+            "requestHeaders": [
+                { "header": "nv-device-os", "operation": "set", "value": "WINDOWS" },
+                { "header": "NV-Device-OS", "operation": "set", "value": "WINDOWS" },
+                { "header": "Nv-Device-Os", "operation": "set", "value": "WINDOWS" }
+            ]
+        },
+        "condition": { }
+    }
+]
