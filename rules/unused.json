@@ -9,7 +9,7 @@
                     "queryTransform": {
                         "addOrReplaceParams": [
                             { "key": "deviceOS", "value": "Windows", "replaceOnly": true },
-                            { "key": "deviceOSVersion", "value": "xddd", "replaceOnly": true }
+                            { "key": "deviceOSVersion", "value": "10.0.19041", "replaceOnly": true }
                         ],
                         "removeParams": [
                             "clientParams"
